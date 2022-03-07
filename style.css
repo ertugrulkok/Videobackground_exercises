@@ -1,0 +1,41 @@
+body {
+  margin:0;
+  padding:0;}
+
+.hero {
+  position:relative;
+}
+
+video {
+  height:100vh;
+  width:100%;
+  background-position:absolute;
+  z-index:10;
+  object-fit:cover;
+}
+
+.content {
+  background:rgba(0,0,0,0.5);
+  height:100%;
+  width:100%;
+  z-index:20;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h1 {
+  color:#FFF;
+  font-family:Arial,sans-serif;
+  width: 1366px;
+}
+
+.content p {
+  font-size:18px;
+  color:#FFF;
+  font-family:Arial,sans-serif;
+}
