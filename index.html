@@ -4,26 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Video Back</title>
     <link rel="stylesheet" href="style.css">
- 
 </head>
 <body>
+    
 
-    <div class="hero">
-
-        <video autoplay loop muted>
-          <source src="bird.mp4" type="video/mp4">
+    <div class="bird_container">
+        <video autoplay muted loop>
+            <source src="bird.mp4">
         </video>
-    
-        <div class="content">
-          <div class="container">
-            <h1><marquee direction=right>I am a little bird...</marquee></h1>
-            <h1><marquee direction=left>I am a little bird...</marquee></h1>
-   
-          </div>
+        <div class="bird_box">
+            <div class="form">
+                <form action="">
+                    <div class="input_field">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Surname">
+                    </div>
+                    <div class="input_field">
+                      <input type="text" placeholder="e-mail">
+                  </div>
+                  <div class="input_field">
+                    <input type="text" placeholder="Phone Number">
+                </div>
+                    <div class="input_field"> 
+                        <textarea name="anliegen" id="anliegen" cols="30" rows="15"></textarea>
+                    </div>
+                    <div class="input_field">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
         </div>
-    
-    
+    </div>
+
 </body>
 </html>
